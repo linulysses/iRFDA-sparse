@@ -207,3 +207,9 @@ dti=hippo.mat$dti.result
 metatinfo=meta[idx,]
 save(file='hippo.RData', dti, metainfo)
 ```
+
+## iRFDA analysis
+Now call the analysis.R in the data-application folder:
+```
+source('analysis.R')
+```
