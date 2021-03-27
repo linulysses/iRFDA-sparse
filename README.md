@@ -211,7 +211,12 @@ save(file='hippo.RData', dti, metainfo)
 ## iRFDA analysis
 Now call the analysis.R in the data-application folder:
 ```
-source('analysis.R')
+source('analysis-script.R')
+```
+This will create two R data files, AZ.RData and CN.RData (which can be also found in the data-application folder). Use the script plot.R (depending on 3d.par.2.RData) to generate the plots in the paper.
+
+```
+source('plot.R')
 ```
 
 # Simulation Studies
