@@ -213,3 +213,9 @@ Now call the analysis.R in the data-application folder:
 ```
 source('analysis.R')
 ```
+
+# Simulation Studies
+Call the simu.R in the simulation folder
+```
+source('simu.R')
+```
