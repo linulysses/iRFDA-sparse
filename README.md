@@ -1,3 +1,11 @@
+
+# Simulation Studies
+Call the simu.R in the simulation folder
+```
+source('simu.R')
+```
+
+
 # Data Application
 ## Download Data
 Follow the instructions in http://adni.loni.usc.edu/ to download the image data. A list of images and subjects used in the paper [Intrinsic Riemannian Functional Data Analysis for Sparse Longitudinal Observations](https://arxiv.org/abs/2009.07427) is given in the file subject-list.txt.
@@ -217,10 +225,4 @@ This will create two R data files, AZ.RData and CN.RData (which can be also foun
 
 ```
 source('plot.R')
-```
-
-# Simulation Studies
-Call the simu.R in the simulation folder
-```
-source('simu.R')
 ```
