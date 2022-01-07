@@ -7,7 +7,11 @@ source('simu.R')
 
 # Experiments on Invariance
 
-Run the scripts in the folder invariance
+Run the scripts in the folder invariance, e.g.,
+```
+source('illustration_compare_frame.R')
+```
+
 
 
 # Data Application
